@@ -70,10 +70,10 @@ if (len(elementSearch) != 0):
 
 #FINAL TEXT COMBINED AND COPIED TO CLIPBOARD
 if (nickTrue):
-	text1 = "Their full name is: " + firstname[element] +  + " " + lastname[element] + 	"\nHere is the email address to send to: " + email[element] + "\nTheir focus area is: " + focus[element] + "\n\nHi " + nickname[element] + ",\nI hope that all is well!\n\nBest,\nScheerio"
+	text1 = "Their full name is: " + firstname[element] + " " + lastname[element] + "\nHere is the email address to send to: " + email[element] + "\nTheir focus area is: " + focus[element] + "\n\nHi " + nickname[element] + ",\nI hope that all is well!\n\nBest,\nScheerio"
 
 elif (exists):
-	text1 = "Their full name is: " + firstname[element] + nickText + lastname[element] + 	"\nHere is the email address to send to: " + email[element] + "\nTheir focus area is: " + focus[element] + "\n\nHi " + firstname[element] + ",\nI hope that all is well!\n\nBest,\nScheerio"
+	text1 = "Their full name is: " + firstname[element] + nickText + lastname[element] + "\nHere is the email address to send to: " + email[element] + "\nTheir focus area is: " + focus[element] + "\n\nHi " + firstname[element] + ",\nI hope that all is well!\n\nBest,\nScheerio"
 
 if (exists):
 	print('The following was copied to your clipboard for your convenience:\n')
